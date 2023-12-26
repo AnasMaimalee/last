@@ -17,7 +17,7 @@
             color: #fff;
           }
           .section{
-            margin-bottom: 50px;
+            margin-bottom: 70px;
             flex: 1;
           }
           .header{
@@ -216,15 +216,36 @@
           /* display: flex;
           justify-content: space-between;
           align-items: center; */
+          background-color: #212121;
           position: fixed;
           bottom: 0;
+          width: 100%;
           columns: #fff;
           padding: 10px ;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
          }
          .footer div{
           display: flex;
           justify-content: space-around;
+          align-items: center;
           margin: 0px 5px;
+         }
+         .contain .first img{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+         }
+         .first, .second, .third{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+         }
+         .ls-bet-down{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
          }
         }
        
@@ -687,9 +708,13 @@
               </div>
             </div>
          
+          
+          </div>
+          <!-- footer  -->
           <div class="footer">
             <div class="contain">
-              <div class="fisrt">
+              <div class="first">
+                <img src="views/images/ball.png" alt="">
                 <span class="title">Scores</span>
               </div>
               <div class="second">
@@ -697,13 +722,16 @@
                 <span class="title">Favourite</span>
               </div>
               <div class="third">
-                <span class="title">Favourite</span>
+                <i class="bi bi-newspaper"></i>
+                <span class="title">News</span>
               </div>
               <div class="forth">
-                dd
+                <div class="ls-bet-down">
+                  <span>LS</span>
+                  <span>Bet</span>
+                </div>
               </div>
             </div>
-        </div>
       </div>
     <script>
        function openNav(){
