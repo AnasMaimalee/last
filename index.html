@@ -16,6 +16,10 @@
             background-color: #222831;
             color: #fff;
           }
+          .section{
+            margin-bottom: 50px;
+            flex: 1;
+          }
           .header{
             /* background-color: #111; */
             padding: 5px;
@@ -147,6 +151,9 @@
           margin: 20px 15px;
           align-items: center;
          }
+         .right-arraw{
+          
+         }
          .country-info{
           display: flex;
           justify-content: space-between ;
@@ -178,25 +185,46 @@
           border-left: 3px solid  #ff5722;
           margin-top: 5px;
          }
+         .club-logo{
+          margin-left: -30px;
+         }
          .club-logo img{
-          width: 30px;
-          height: 30px;
+          width: 15px;
+          height: 15px;
           border-radius: 50%;
           margin-top: 4px;
          }
          .logo-clubNames{
           display: flex;
           flex-direction: column;
-          margin-left: 0px;
+          margin-left: -30px;
+         }
+         .club-name{
+          margin-left: -30px;
          }
          .score{
           display: grid;
+          margin-left: 50px;
          }
          .home-name, .score .home{
           margin-bottom: 4px;
          }
          .away-name, .score .away{
           margin-top: 6gpx;
+         }
+         .footer{
+          /* display: flex;
+          justify-content: space-between;
+          align-items: center; */
+          position: fixed;
+          bottom: 0;
+          columns: #fff;
+          padding: 10px ;
+         }
+         .footer div{
+          display: flex;
+          justify-content: space-around;
+          margin: 0px 5px;
          }
         }
        
@@ -657,8 +685,26 @@
         <i class="bi bi-heart"></i>
       </div>
     </div>
-
+  <!-- footer  -->
+    <div class="footer">
+      <div class="contain">
+        <div class="fisrt">
+          <span class="title">Scores</span>
+        </div>
+        <div class="second">
+          <i class="bi bi-heart"></i>
+          <span class="title">Favourite</span>
+        </div>
+        <div class="third">
+          <span class="title">Favourite</span>
+        </div>
+        <div class="forth">
+          dd
+        </div>
+      </div>
     </div>
+    <hr>
+  </div>
     <script>
        function openNav(){
         document.getElementById("mySidenav").style.width = "250px";
