@@ -20,6 +20,7 @@
             padding: 5px;
             color: white;
             display: flex;
+            border-bottom: 1px solid #fff;
             justify-content: space-between;
           }
           .header>:first-child{
@@ -48,11 +49,12 @@
             position: fixed;
             z-index: 1;
             top: 0;
-            left: 0;
+            left: -3;
             background-color: #222831;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
+            border-right: 1px solid  #fff;
          }
         
          .sidenav a{
@@ -85,7 +87,7 @@
             z-index: 1;
             top: 0;
             left: 0;
-            /* background-color: #111; */
+            background-color: #222831;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -94,7 +96,22 @@
          
          }
          /* main top body  */
-         
+         .body-top{
+          margin-top: 10px;
+          display: flex;
+          /* justify-content: space-around; */
+          overflow-x: scroll;
+         }
+         .body-top a{
+          text-decoration: none;
+          padding: 10px;
+          background-color: #fff;
+          border-radius: 20px;
+          color: #818181;
+          margin-left: 15px;
+          width: auto;
+          /* overflow: scroll; */
+         }
         }
        
     </style>
@@ -153,6 +170,8 @@
             <a href="">BasketBall</a>
             <a href="">Tennis</a>
             <a href="">Cricket</a>
+            <a href="">Formula1</a>
+            <a href="">Race</a>
           </div>
     </div>
     <script>
